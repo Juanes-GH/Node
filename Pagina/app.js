@@ -12,9 +12,8 @@ const uri = '';
 
 mongoose.connect('uri', {useNewUrlParser: true, useUnifiedTopology: true});
 
-    .then(() => console.log('the base of data is correct'));
-    .carch(e => console.log(e))
-
+.then(() => console.log('the base of data is correct'));
+.catch(e => console.log(e));
 
 // TEMPLATE MOTOR
 app.set('view engine', 'ejs');
